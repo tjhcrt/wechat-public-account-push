@@ -4,10 +4,10 @@ export const config = {
    */
 
   // 公众号APP_ID
-  APP_ID: "",
+  APP_ID: "wxbbcb2f86f3d6be7b",
 
   // 公众号APP_SECRET
-  APP_SECRET: "",
+  APP_SECRET: "e42f47e4ce7da897f1d302c711d895d1",
 
   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
@@ -27,17 +27,17 @@ export const config = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "老婆0",
+      name: "亲爱的老婆海创融泰",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "ohxOO6VskY2v40Kuf5ywIZVRM3puXhk",
+      id: "oSHt75ncoWOyaN8MdEn4qA0jmO5U",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "Wue80GrtY1nAi5a4tam4FDxZF59WNx9pwcBc06LMpANnu8",
+      useTemplateId: "34w1jDUid35f6FCQrTjatinikpMUBNXvGFucte_79vY",
       // 所在省份
-      province: "广东",
+      province: "天津",
       // 所在城市
-      city: "肇庆",
+      city: "天津",
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: "https://wangxinleo.cn"
+      openUrl: "https://www.baidu.com/"
     }, 
     {
       name: "老婆1", 
@@ -45,7 +45,7 @@ export const config = {
       useTemplateId: "",
       province: "",
       city: "",
-      openUrl: "https://wangxinleo.cn"
+      openUrl: "https://www.baidu.com/"
     }, 
     {
       name: "老婆2",
@@ -53,7 +53,7 @@ export const config = {
       useTemplateId: "",
       province: "",
       city: "",
-      openUrl: "https://wangxinleo.cn"
+      openUrl: "https://www.baidu.com/"
     }, 
     {
       name: "老婆3", 
@@ -61,7 +61,7 @@ export const config = {
       useTemplateId: "",
       province: "",
       city: "",
-      openUrl: "https://wangxinleo.cn"
+      openUrl: "https://www.baidu.com/"
     }, 
   ],
 
@@ -76,9 +76,9 @@ export const config = {
   CALLBACK_USERS: [
     {
       // 一般都填自己
-      name: "自己",
+      name: "自己微信",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "ohx12OO6VskYv03Kuf43ywIZVRM4puXhk",
+      id: "oSHt75iG3TG-iMzV595tNYF5Cydo	",
     }, 
   ],
     
@@ -89,9 +89,9 @@ export const config = {
   /** 天气相关 */
 
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
-  PROVINCE: "广东",
+  PROVINCE: "天津",
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-  CITY: "惠州",
+  CITY: "天津",
 
   /** 重要节日相关 */
 
@@ -102,10 +102,10 @@ export const config = {
    * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
    */
   FESTIVALS: [
-    {"type": "生日", "name": "老婆", "year": "1996", "date": "09-02"},
-    {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
-    {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
-    {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
+    {"type": "生日", "name": "老婆", "year": "1989", "date": "11-10"},
+    {"type": "节日", "name": "结婚纪念日", "year": "2014", "date": "04-11"},
+    {"type": "生日", "name": "老公", "year": "1988", "date": "03-08"},
+    {"type": "节日", "name": "被搭讪纪念日", "year": "2013", "date": "05-02"},
   ],
 
   /**
@@ -123,13 +123,13 @@ export const config = {
     * */
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
-    {"keyword": "love_day", date: "2015-05-01"},
+    {"keyword": "love_day", date: "2013-05-02"},
     // 结婚纪念日
-    {"keyword": "marry_day", date: "2020-01-04"},
-    // 退伍日, 不用可以删掉
-    {"keyword": "ex_day", date: "2022-08-31"},
-    // sakana日
-    // {"keyword": "sakana_day", date: "2022-01-06"},
+    {"keyword": "marry_day", date: "2014-04-11"},
+    // 大儿子出生的日子
+    {"keyword": "leilei_day", date: "2014-12-07"},
+    // 小二子出生的日子
+    // {"keyword": "bobo_day", date: "2019-03-15"},
     // ... 
   ],
 
