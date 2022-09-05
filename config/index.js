@@ -126,10 +126,10 @@ export const config = {
     {"keyword": "love_day", date: "2013-05-02"},
     // 结婚纪念日
     {"keyword": "marry_day", date: "2014-04-11"},
-    // 大儿子出生的日子
-    {"keyword": "leilei_day", date: "2014-12-07"},
-    // 小二子出生的日子
-    // {"keyword": "bobo_day", date: "2019-03-15"},
+    // 日子
+    {"keyword": "leilei_day", date: "2040-42-07"},
+    // 小二
+    // {"keyword": "bobo_day", date: "2016-06-15"},
     // ... 
   ],
 
